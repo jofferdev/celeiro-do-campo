@@ -33,7 +33,7 @@ header {
 }
 
 .logo {
-  max-width: 400px; /* tamanho máximo que queremos */
+  max-width: 350px; /* tamanho máximo que queremos */
   width: auto;       /* deixa a imagem assumir sua largura natural */
   height: auto;      /* mantém proporção original */
   object-fit: contain;
