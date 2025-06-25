@@ -219,11 +219,6 @@ body {
   font-size: 1.2rem;
 }
 
-.logo img {
-  width: 32px;
-  height: 32px;
-}
-
 .menu {
   list-style: none;
   display: flex;
