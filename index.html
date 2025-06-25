@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Celeiro do Campo - Produtos naturais e saudáveis direto da terra para sua mesa.">
+  <title>Celeiro do Campo </title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="cabecalho-principal">
+  <div class="logo-container">
+    <img src="logo_celeiro_do_campo.png" alt="Logo Celeiro do Campo" class="logo" />
+  </div>
+</div>
+  </header>
+  <nav class="subheader-nav">
+    <ul class="menu-horizontal">
+      <li class="dropdown">
+        <a href="#">Todas as Páginas</a>
+        <ul class="dropdown-content">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="produtos.html">Produtos</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main class="pagina-inicial">
+    <h1>Bem-vindo ao Celeiro do Campo</h1>
+    <p>Produtos naturais, saborosos e saudáveis direto da terra para sua mesa.</p>
+    <p><strong>Explore nossos produtos e redescubra o sabor da vida natural.</strong></p>
+    <a href="produtos.html" class="botao-cta">Ver Produtos</a>
+
+    <section class="carrossel-destaque" onclick="window.location.href='produtos.html'">
+      <h2>Produtos em Destaque</h2>
+      <div class="carrossel-container" onmouseover="mostrarSetas(true)" onmouseout="mostrarSetas(false)">
+        <button class="seta esquerda" onclick="mudarSlide(-1)">&#10094;</button>
+        <div class="slides">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.inYMjRVP1YvTQK9-T3czYAHaJB&pid=Api" alt="Granola com Castanhas" />
+          <img src="https://tse1.mm.bing.net/th?id=OIP.NtwJutYzhKUyz_xrNv2O5gHaHa&pid=Api" alt="Mel Orgânico" />
+          <img src="https://tse4.mm.bing.net/th?id=OIP.TuAmKS4UUjSbrus_Q4ITFQHaEU&pid=Api" alt="Chia" />
+          <img src="https://tse4.mm.bing.net/th?id=OIP.i9SepKKcwNsFlbbLsKnS9QHaE9&pid=Api" alt="Chá Verde Importado" />
+        </div>
+        <button class="seta direita" onclick="mudarSlide(1)">&#10095;</button>
+      </div>
+    </section>
+
+    <section class="frase-inspiradora">
+      <blockquote>“Cuidar da saúde começa com o que colocamos na mesa. O natural é essencial.”</blockquote>
+    </section>
+  </main>
+  <footer class="rodape">
+    <div class="rodape-coluna">
+      <h4>Institucional</h4>
+      <ul>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div class="rodape-coluna">
+      <h4>Atendimento</h4>
+      <p>Rua das Palmeiras, 123 – Vila Verde, SP</p>
+      <p>(11) 98765-4321</p>
+      <p>contato@celeirodocampo.com</p>
+    </div>
+    <div class="rodape-coluna">
+      <h4>Siga-nos</h4>
+      <div class="redes-sociais">
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook" /></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733558.png" alt="Instagram" /></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733585.png" alt="WhatsApp" /></a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

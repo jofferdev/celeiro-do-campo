@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Celeiro do Campo - Produtos naturais e saudáveis direto da terra para sua mesa." name="description"/>
+<title>Celeiro do Campo </title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet">
+</link></head>
+<body>
+<header>
+<div class="cabecalho-principal">
+<div class="logo-container">
+<img alt="Logo Celeiro do Campo" class="logo" src="logo_celeiro_do_campo.png"/>
+</div>
+</div>
+</header>
+<nav class="subheader-nav">
+<ul class="menu-horizontal">
+<li class="dropdown">
+<a href="#">Todas as Páginas</a>
+<ul class="dropdown-content">
+<li><a href="index.html">Início</a></li>
+<li><a href="sobre.html">Sobre</a></li>
+<li><a href="produtos.html">Produtos</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
+</li>
+<li><a href="index.html">Início</a></li>
+<li><a href="sobre.html">Sobre</a></li>
+<li><a href="produtos.html">Produtos</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
+</nav>
+<main class="pagina-inicial">
+<h1>Nossos Produtos</h1>
+<div class="produtos-grid">
+<div class="produto-card">
+<img alt="Granola com Castanhas" src="https://tse1.mm.bing.net/th?id=OIP.inYMjRVP1YvTQK9-T3czYAHaJB&amp;pid=Api"/>
+<h2>Granola com Castanhas</h2>
+<p>Mix crocante de aveia e castanhas selecionadas.</p>
+<p><strong>R$ 25,00</strong></p>
+<button onclick="adicionarCarrinho('Granola com Castanhas')">Adicionar ao Carrinho</button>
+</div>
+<div class="produto-card">
+<img alt="Mel Orgânico" src="https://tse1.mm.bing.net/th?id=OIP.NtwJutYzhKUyz_xrNv2O5gHaHa&amp;pid=Api"/>
+<h2>Mel Orgânico</h2>
+<p>Mel puro extraído de floradas silvestres.</p>
+<p><strong>R$ 32,00</strong></p>
+<button onclick="adicionarCarrinho('Mel Orgânico')">Adicionar ao Carrinho</button>
+</div>
+<div class="produto-card">
+<img alt="Chia" src="https://tse4.mm.bing.net/th?id=OIP.TuAmKS4UUjSbrus_Q4ITFQHaEU&amp;pid=Api"/>
+<h2>Chia</h2>
+<p>Sementes ricas em ômega-3 e fibras naturais.</p>
+<p><strong>R$ 18,00</strong></p>
+<button onclick="adicionarCarrinho('Chia')">Adicionar ao Carrinho</button>
+</div>
+<div class="produto-card">
+<img alt="Chá Verde Importado" src="https://tse4.mm.bing.net/th?id=OIP.i9SepKKcwNsFlbbLsKnS9QHaE9&amp;pid=Api"/>
+<h2>Chá Verde Importado</h2>
+<p>Chá verde japonês de qualidade premium.</p>
+<p><strong>R$ 29,00</strong></p>
+<button onclick="adicionarCarrinho('Chá Verde Importado')">Adicionar ao Carrinho</button>
+</div>
+</div>
+<section class="carrinho">
+<h2>🛒 Carrinho</h2>
+<ul id="lista-carrinho"></ul>
+</section>
+</main>
+<footer class="rodape">
+<div class="rodape-coluna">
+<h4>Institucional</h4>
+<ul>
+<li><a href="sobre.html">Sobre Nós</a></li>
+<li><a href="produtos.html">Produtos</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
+</div>
+<div class="rodape-coluna">
+<h4>Atendimento</h4>
+<p>Rua das Palmeiras, 123 – Vila Verde, SP</p>
+<p>(11) 98765-4321</p>
+<p>contato@celeirodocampo.com</p>
+</div>
+<div class="rodape-coluna">
+<h4>Siga-nos</h4>
+<div class="redes-sociais">
+<a href="#"><img alt="Facebook" src="https://cdn-icons-png.flaticon.com/24/733/733547.png"/></a>
+<a href="#"><img alt="Instagram" src="https://cdn-icons-png.flaticon.com/24/733/733558.png"/></a>
+<a href="#"><img alt="WhatsApp" src="https://cdn-icons-png.flaticon.com/24/733/733585.png"/></a>
+</div>
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
